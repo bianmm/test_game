@@ -1,0 +1,13 @@
+log_dir	 		../logs/
+log_level		8
+log_size		32000000
+log_prefix		mb_
+
+bind_file	        ../etc/bind.conf
+#shmq_length		8192000
+#run_mode		foreground
+pkg_timeout		5
+worker_num	    1
+
+#send_buffer		4096
+#recv_buffer		4096
